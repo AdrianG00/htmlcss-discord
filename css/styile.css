@@ -3,6 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Common */
 html{
+    font-family: "Whitney", sans-serif;
+    font-size: 10px;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+/* Navigation bar */
+nav{
+    background-color: #3161e0;
+    width: 100%;
+    height: 70px;
+
+}
+.col{
+     float: left;
+     line-height: 70px;
+}
+.col-nav-left, .col-nav-right{
+    width: 25%;
+}
+.col-nav-center{
+    width: 50%;
     
+}
+.nav-menu li{
+    display: inline-block;
+
+}
+.nav-menu-item a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: white;
+    padding: 0 0.3em;
+}
+.col-nav-left img{
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+
+
+/* Button */
+.small-button{
+    padding: .7em 1.4em;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+.white{
+    background-color: white;
+    color: black;
 }
